@@ -1,0 +1,29 @@
+# Canonical live-site symlinks are server-local
+/data
+/images
+
+# Disposable pipeline output
+/work/
+
+# Harvested upstream material is persistent locally but not source code
+/harvest/*
+!/harvest/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor / OS debris
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs / temporary files
+*.log
+*.tmp
